@@ -79,14 +79,6 @@ hr {
     right: 20px;
     transition: all 1s;
 }
-#barra-email {
-    color: #FFF;
-    float: right;
-}
-#barra-email a {
-    text-decoration: none;
-    color: #FFF;
-}
 /*Fim do Menu*/
 
 /* HOME */
@@ -94,8 +86,29 @@ hr {
     height: 500px;
     padding-top: 80px;
 }
-
 /*Fim HOME*/
+
+/*Footer*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    float: center;
+    padding: 15px;
+    color: #FFF;
+    text-align: center;
+}
+#footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+#footer a:hover {
+    background-color: #DDD;
+    color: #000;
+}
+/*Fim Footer*/
 
 /*Media*/
 @media only screen and (min-width: 1440px) and (max-width: 2560px) {
