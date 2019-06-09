@@ -83,10 +83,29 @@ hr {
 
 /* HOME */
 #home {
-    height: 500px;
+    height: 200px;
     padding-top: 80px;
 }
 /*Fim HOME*/
+
+/*Cards*/
+#cards {
+    margin: 5px;
+}
+.card {
+    background-color: #000;
+    color: #FFF;
+}
+.card-body {
+    height: 200px;
+    padding: 20px;
+}
+.card-body:hover {
+    background-color: #DDD;
+    color: #000;
+}
+/*Fim Cards*/
+
 
 /*Footer*/
 #footer {
