@@ -131,7 +131,10 @@ hr {
         position: fixed;
         padding: 5px;
     }
-    .card    {
+    #cards {
+        margin-bottom: 90px;
+    }
+    .card {
         margin: 20px;
     }
     #container {
