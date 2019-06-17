@@ -68,19 +68,19 @@ hr {
     margin: 5px;
 }
 .card {
-    background-color: #000;
-    color: #FFF;
+    width: 240px;
+    height: 140px;
+    border: 0;
 }
-.card-body {
-    height: 200px;
-    padding: 20px;
-}
-.card-body:hover {
+.card-img:hover {
     background-color: #DDD;
-    color: #000;
+}
+.card-img {
+    width: 240px;
+    height: 140px;
+    border-radius: 5px;
 }
 /*Fim Cards*/
-
 
 /*Footer*/
 #footer {
