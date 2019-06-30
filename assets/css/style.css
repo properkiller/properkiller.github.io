@@ -67,6 +67,9 @@ hr {
 #cards {
     margin: 5px;
 }
+.card-deck {
+    margin: 20px;
+}
 .card {
     width: 240px;
     height: 140px;
@@ -84,7 +87,7 @@ hr {
 
 /*Footer*/
 #footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
