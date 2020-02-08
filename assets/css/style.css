@@ -31,6 +31,9 @@ hr {
     max-width: 1040px;
     height: 40px;
     margin: auto;
+    float: left;
+    margin-left: 100px;
+    margin-top: 8px;
 }
 .menu ul {
     margin: 0;
@@ -54,6 +57,13 @@ hr {
     color: #FFF;
     text-decoration: none;
 }
+.titulo {
+    color: #FFF;
+    font-size: 36px;
+    float: right;
+    margin-left: -200px;
+    margin-right: 100px;
+}
 /*Fim do Menu*/
 
 /* HOME */
@@ -63,27 +73,67 @@ hr {
 }
 /*Fim HOME*/
 
-/*Cards*/
+/*Cards Home*/
+.bg-dark img {
+    width: 30%;
+    margin: auto;
+    height: 60%;
+    padding: 10px;
+}
+.nome {
+    text-align: center;
+}
+.job {
+    text-align: center;
+    font-size: 14px;
+}
+/*Fim Cards Home*/
+
+/*Cards Games*/
 #cards {
     margin: 5px;
 }
 .card-deck {
     margin: 20px;
 }
-.card {
+.games{
     width: 240px;
     height: 140px;
     border: 0;
 }
-.card-img:hover {
-    background-color: #DDD;
-}
-.card-img {
+.img_games {
     width: 240px;
     height: 140px;
     border-radius: 5px;
 }
-/*Fim Cards*/
+.img_games:hover {
+    background-color: rgb(141, 41, 41);
+}
+/*Fim Cards Games*/
+
+/*DigitalArts*/
+.artes {
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+.img_artes_cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: auto;
+}
+.img_artes {
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+}
+.img_artes:hover {
+    background-color: none;
+}
+
+/*Fim DigitalArts*/
 
 /*Footer*/
 #footer {
