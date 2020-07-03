@@ -113,7 +113,7 @@ hr {
 
 /*DigitalArts*/
 .artes {
-    height: 300px;
+    height: 250px;
     margin: auto;
     text-align: center;
 }
@@ -124,8 +124,8 @@ hr {
     margin: auto;
 }
 .img_artes {
-    width: 220px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
     margin: auto;
 }
